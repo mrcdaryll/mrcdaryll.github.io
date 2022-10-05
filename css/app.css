@@ -12,9 +12,10 @@ body{
 nav{
     text-decoration: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;  
     font-size: x-large; 
+    margin: auto;
 }
 ul, li{
     text-decoration: none;
@@ -35,16 +36,16 @@ a{
 ul, li, a:hover{
     color: aqua;
     transition: 0.5s;
+    display: flex;
 }
 
-.logo{
+.logo h2{
     display: flex;
-    padding-left: 10px;
-}
-.logo img{
-    height: 100px;
-    width: 100px;
-    margin: 5px;
+    margin-top: 34px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    color: #ffffff;
 }
 
 .button{
@@ -99,13 +100,9 @@ ul, li, a:hover{
     flex-shrink: 1;
     padding: 0.75rem;
 }
-.pt-6 img{
-    height: 900px;
-    width: 900px; 
-}
 .is-half img{
-    height: 900px;
-    width: 900px;
+    height: 800px;
+    width: 800px;
 }
 
 .informational{
@@ -114,3 +111,75 @@ ul, li, a:hover{
     background-color: #0a0a0a;
     color: #ffffff;
 }
+
+.columns{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.columns .column{
+    padding-top: 5px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.pt-6 h1{
+    color: #ffffff;
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 0px;
+}
+
+.pt-6 span{
+    color: #0a0a0a;
+}
+
+.mt-6 h2{
+    margin: 0px;
+}
+
+.m1-1{
+    display: flex;
+}
+
+.m1-1 a{
+    background-color: #010101;
+    border-radius: 10px;
+    margin-left: 10px;
+    display: inline;
+    padding: 10px;
+    text-align: center;
+    
+    font-size: x-large;
+}
+
+.m1-1 a:hover{
+    color: #ffffff;
+    display: inline;
+    font-size: x-large;
+}
+
+.m1-1 span{
+    color: #ffffff;
+    font-size: x-large;
+}
+
+.button.for-github{
+    background-color: #010101;
+    padding: 10px;
+    text-align: center;
+    margin: 0px;
+}
+
+.button.for-github:hover{
+    background-color: aqua;
+    color: #010101;
+}
+
+.span:hover{
+    color: #010101;
+}
+
+
