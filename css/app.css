@@ -86,9 +86,8 @@ ul, li, a:hover{
     width: auto;
 }
 
-.column is-half img{
-    height: 1px;
-    width: 1px;
+.is-half img:hover{
+    opacity: 1.0;
 }
 
 .column {
@@ -102,6 +101,12 @@ ul, li, a:hover{
     height: 800px;
     width: 1000px;
 }
+
+.is-half img:hover{
+    opacity: 0.5;
+    zoom: 100.5%;
+}
+
 
 .informational{
     display: flex;
