@@ -115,7 +115,7 @@ ul, li, a:hover{
 
 .informational{
     display: flex;
-    text-align: center;
+    justify-content: center;
     background-color: #0a0a0a;
     color: #ffffff;
 }
