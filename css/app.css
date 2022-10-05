@@ -1,3 +1,7 @@
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
 body{
     margin: 0;
     background-color: #56555A;
@@ -86,10 +90,6 @@ ul, li, a:hover{
     width: auto;
 }
 
-.is-half img:hover{
-    opacity: 1.0;
-}
-
 .column {
     display: inline-block;
     flex-basis: 0;
@@ -100,11 +100,16 @@ ul, li, a:hover{
 .is-half img{
     height: 800px;
     width: 1000px;
+    zoom: 95%;
+    cursor: pointer;
+    -webkit-transition: all ease 300ms;
 }
 
 .is-half img:hover{
-    opacity: 0.5;
-    zoom: 100.5%;
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+    -webkit-filter: brightness(50%);
+    filter: brightness(50%);
 }
 
 
