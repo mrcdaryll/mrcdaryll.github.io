@@ -117,6 +117,7 @@ ul, li, a:hover{
 }
 
 .columns .column{
+    padding-top: 5px;
     padding-bottom: 0px;
     padding-left: 0px;
     padding-right: 0px;
@@ -139,7 +140,7 @@ ul, li, a:hover{
 }
 
 .m1-1{
-    display: flex;
+    display: inline-block;
 }
 
 .m1-1 a{
