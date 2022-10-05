@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-color: #fff;
+    background-color: #ffffff;
     font-family: Inter, sans-serif;
     color: #0a0a0a;
 }
@@ -101,4 +101,11 @@ ul, li, a:hover{
 .is-half img{
     height: 900px;
     width: 900px;
+}
+
+.informational{
+    display: flex;
+    text-align: center;
+    background-color: #0a0a0a;
+    color: #ffffff;
 }
