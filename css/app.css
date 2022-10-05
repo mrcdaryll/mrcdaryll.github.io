@@ -3,6 +3,7 @@ body{
     background-color: #56555A;
     font-family: 'Montserrat', sans-serif;
     color: #0a0a0a;
+    font-weight: 800;
 }
 .navbar{
     background-color: #010101;
@@ -64,10 +65,7 @@ ul, li, a:hover{
     text-align: center;
     margin-left: 30px;
     margin-right: 20px;
-    padding-top: 15px;  
-    padding-bottom: 15px;
-    padding-right: 15px;
-    padding-left: 15px;    
+    padding: 15px;   
     color: #fff;
 }
 
@@ -102,7 +100,7 @@ ul, li, a:hover{
 }
 .is-half img{
     height: 800px;
-    width: 800px;
+    width: 850px;
 }
 
 .informational{
@@ -119,7 +117,6 @@ ul, li, a:hover{
 }
 
 .columns .column{
-    padding-top: 5px;
     padding-bottom: 0px;
     padding-left: 0px;
     padding-right: 0px;
@@ -129,15 +126,16 @@ ul, li, a:hover{
     color: #ffffff;
     text-align: center;
     font-size: 70px;
-    margin-bottom: 0px;
+    margin:0%;
 }
 
 .pt-6 span{
     color: #0a0a0a;
 }
 
-.mt-6 h2{
-    margin: 0px;
+.column h2{
+    margin-top: 0%;
+    margin-bottom: auto;
 }
 
 .m1-1{
@@ -146,23 +144,13 @@ ul, li, a:hover{
 
 .m1-1 a{
     background-color: #010101;
+    font-weight: 800;
     border-radius: 10px;
     margin-left: 10px;
     display: inline;
     padding: 10px;
     text-align: center;
     
-    font-size: x-large;
-}
-
-.m1-1 a:hover{
-    color: #ffffff;
-    display: inline;
-    font-size: x-large;
-}
-
-.m1-1 span{
-    color: #ffffff;
     font-size: x-large;
 }
 
@@ -175,10 +163,13 @@ ul, li, a:hover{
 
 .button.for-github:hover{
     background-color: aqua;
+    font-weight: 800;
     color: #010101;
 }
 
-.span:hover{
+.button.for-resume:hover{
+    background-color: aqua;
+    font-weight: 800;
     color: #010101;
 }
 
