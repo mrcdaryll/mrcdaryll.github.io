@@ -304,7 +304,6 @@ a{
     -webkit-filter: brightness(80%);
     filter: brightness(80%);
 }
-
 /* Form */
 .section.container{
     display: flex;
