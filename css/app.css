@@ -83,6 +83,8 @@ a{
 .main-body{
     display: flex;
     flex-wrap: wrap;
+    padding-left: 50px;
+
 }
 .container {
     display: inline-block;
@@ -194,13 +196,13 @@ a{
     justify-content: center;
     background-color: #010101;
     color: #ffffff;
+    margin: 210px 0px 20px 0px;
 }
 
 .informational h1{
     text-align: center;
     font-size: xx-large;
     font-weight: 800;
-    margin: 0px 0px 10px 0px;
 }
 
 .title-underline {
@@ -219,6 +221,13 @@ a{
 }
 
 /* 4th Section */
+
+.skills{
+    display: flex;
+    background-color: #56555A;
+    color: #ffffff;
+}
+
 .skills.container{
     display: flex;
     align-items: center;
@@ -229,7 +238,7 @@ a{
 .skills h1{
     margin: 0px 0px 10px 0px;
     font-size: 60px;
-    text-align: center;
+    text-align: start;
 }
 
 .skills-underline{
