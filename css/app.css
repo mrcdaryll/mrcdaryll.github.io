@@ -6,7 +6,7 @@ body{
     margin: 0;
     background-color: #010101;
     font-family: 'Montserrat', sans-serif;
-    color: #0a0a0a;
+    color: #ffffff;
 }
 .navbar{
     background-color: #010101;
@@ -83,11 +83,11 @@ a{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin: 50px 50px 50px 50px;
     padding: 50px;
 }
 .container {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     padding: 50px;
     margin: 50px;
