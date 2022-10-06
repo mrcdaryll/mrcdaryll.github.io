@@ -17,7 +17,7 @@ body{
 nav{
     text-decoration: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;  
     font-size: larger; 
     margin: auto;
@@ -41,7 +41,6 @@ a{
 ul, li, a:hover{
     color: aqua;
     transition: 0.5s;
-    display: flex;
 }
 
 .logo h2{
