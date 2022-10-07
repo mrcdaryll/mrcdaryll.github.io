@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/helper.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="side-logo img-box">
+                <img src="img/pixeltrue-web-development-1.png" alt="logo">
+            </div>
+            <div class="form-box">
+                <div class="button-box">
+                    <div id="btn"></div>
+                    <button type="button" class="toggle-btn" onclick="switchLogin()">Log in</button>
+                    <button type="button" class="toggle-btn" onclick="register()">Register</button>
+                </div>
+                <form id="login" class="input-group">
+                    <input id="inputUsername" type="text" class="input-field" placeholder="Username">
+                    <input id="inputPassword" type="password" class="input-field" placeholder="Password" required>
+                    <input type="checkbox" class="chk-box">
+                    <span>Remember Password</span>
+                    <button type="submit" class="submit-btn">Log in</button>
+                </form>
+                <form id="register" class="input-group">
+                    <input id="username" type="text" class="input-field" placeholder="Username">
+                    <input id="password" type="text" class="input-field" placeholder="Password" required>
+                    <input type="checkbox" class="chk-box"><span>I agree to the terms and conditions</span>
+                    <button id="save" type="submit" class="submit-btn" onclick="saveUserCredentials()">Register</button>
+                </form>
+            </div>
+        </div>
+        <script src="js/app.js"></script>
+    </div>
+</body>
+
+</html>

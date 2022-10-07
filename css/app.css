@@ -385,7 +385,8 @@ a{
     flex-grow: 1;
 }
 
-.input-primary, .textarea-primary{
+.input-primary,
+.textarea-primary{
     border-color: #00d1b2;
     max-width: 100%;
     width: 90%;
