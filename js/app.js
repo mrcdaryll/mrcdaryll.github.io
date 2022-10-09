@@ -14,18 +14,18 @@ function switchLogin(){
     z.style.left = "0"; 
 }
 
-/*function saveUserCredentials(){
-    var username = document.getElementById("username");
-    var pword = document.getElementById("password");
+function saveUserCredentials(){
+    var userName = document.getElementById("username").value;
+    var pword = document.getElementById("password").value;
 }
 
-function showPassword(username, password){
-    var a = document.getElementById("inputUsername");
-    var b = document.getElementById("inputPassword");
-    if(a.type === "username" ){
-        if(b.type === "password"){
+function showPassword(username, pword){
+    var a = document.getElementById("inputUsername").value;
+    var b = document.getElementById("inputPassword").value;
+    if(a.type === username ){
+        if(b.type === pword){
             console.log("success");
         }
     }
 
-}*/
+}
